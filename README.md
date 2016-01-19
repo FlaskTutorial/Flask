@@ -31,32 +31,39 @@ Using [virtualenv](https://pypi.python.org/pypi/virtualenv) is an easy way to in
 1. Install Pip 
 
 This is your package management system used to install and manage software. Stands for "Pip Installs Package" or "Pip Installs Python".
+
 ```
 $ sudo easy_install pip
 ```
+
 2. Install virtualenv
 
 Both commands below accomplish the same thing. 
+
 ```
 $ sudo pip install virtualenv
 ```
 OR
+
 ```
 $ sudo easy_install virtualenv
 ```
 
 3. Create a folder for your app
+
 ```
 $ virtualenv flaskapp
 ```
 
 4. Activate your new app
+
 ```
 $ cd flaskapp
 $ . bin/activate
 ```
 
 5. Install Flask!
+
 ```
 $ pip install Flask
 ```
