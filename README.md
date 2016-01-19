@@ -28,7 +28,12 @@ Flask depends on two external libraries, Werkzeug and Jinja2. Werkzeug is a tool
 
 Using [virtualenv](https://pypi.python.org/pypi/virtualenv) is an easy way to install a virtual Python environment for your new app. It enables multiple side-by-side installations of Python, one for each project. It doesn’t actually install separate copies of Python, but it does provide a clever way to keep different project environments isolated.
 
-1. Install virtualenv
+1. Install Pip 
+This is your package management system used to install and manage software. Stands for "Pip Installs Package" or "Pip Installs Python".
+```
+$ sudo easy_install pip
+```
+2. Install virtualenv
 Both commands below accomplish the same thing. 
 ```
 $ sudo pip install virtualenv
@@ -37,16 +42,16 @@ OR
 ```
 $ sudo easy_install virtualenv
 ```
-2. Create a folder for your app
+3. Create a folder for your app
 ```
 $ virtualenv flaskapp
 ```
-3. Activate your new app
+4. Activate your new app
 ```
 $ cd flaskapp
 $ . bin/activate
 ```
-4. Install Flask!
+5. Install Flask!
 ```
 $ pip install Flask
 ```
