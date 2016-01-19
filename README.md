@@ -4,11 +4,11 @@
 
 ### Not that kind of flask...
 
-Flask is a microframework for Python based on [Werkzeug](http://werkzeug.pocoo.org/) and [Jinja2](http://jinja.pocoo.org/docs/dev/). Its main use is to get your Python app started very quickly. 
+Flask is a microframework for Python based on [Werkzeug](http://werkzeug.pocoo.org/) and [Jinja2](http://jinja.pocoo.org/docs/dev/). Its main use is to get your Python app started very quickly — like Express does for Node.
 
-### Docs on Docs on Docs 
+### Docs on docs on docs 
 
-Check out the docs [here](http://flask.pocoo.org/docs/).
+Check out the docs [here](http://flask.pocoo.org/docs/). 
 
 ### Before you Begin
 
@@ -29,8 +29,13 @@ Flask depends on two external libraries, Werkzeug and Jinja2. Werkzeug is a tool
 Using [virtualenv](https://pypi.python.org/pypi/virtualenv) is an easy way to install a virtual Python environment for your new app. It enables multiple side-by-side installations of Python, one for each project. It doesn’t actually install separate copies of Python, but it does provide a clever way to keep different project environments isolated.
 
 1. Install virtualenv
+Both commands below accomplish the same thing. 
 ```
 $ sudo pip install virtualenv
+```
+OR
+```
+$ sudo easy_install virtualenv
 ```
 2. Create a folder for your app
 ```
