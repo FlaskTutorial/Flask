@@ -1,10 +1,16 @@
 # Flask Tutorial
 
-### What is Flask, and why use it?
+![Boozemin](http://cdn.hiconsumption.com/wp-content/uploads/2013/11/Prescription-Label-Flask.jpg)
 
-Flask is a microframework for Python based on [Werkzeug](http://werkzeug.pocoo.org/) and [Jinja2](http://jinja.pocoo.org/docs/dev/). Its main use is to get your Python app started very quickly.
+### Not that kind of flask...
 
-### Before you begin...
+Flask is a microframework for Python based on [Werkzeug](http://werkzeug.pocoo.org/) and [Jinja2](http://jinja.pocoo.org/docs/dev/). Its main use is to get your Python app started very quickly. 
+
+### Docs on Docs on Docs 
+
+Check out the docs [here](http://flask.pocoo.org/docs/).
+
+### Before you Begin
 
 Creating an app with Flask assumes that you have working knowledge of:
 * Python
@@ -15,6 +21,7 @@ Creating an app with Flask assumes that you have working knowledge of:
 * Debugging
 
 ### Dependencies
+
 Flask depends on two external libraries, Werkzeug and Jinja2. Werkzeug is a toolkit for WSGI, the standard Python interface between web applications and a variety of servers for both development and deployment. Jinja2 renders templates. 
 
 ### How to Install
@@ -39,7 +46,4 @@ $ . bin/activate
 $ pip install Flask
 ```
 
-### Project Structure
-
-TBD from De
 
