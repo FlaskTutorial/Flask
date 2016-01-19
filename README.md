@@ -14,7 +14,6 @@ Creating an app with Flask assumes that you have working knowledge of:
 * RESTful routes
 * Unit testing
 * Debugging
-# pip (package manager)
 
 ### Dependencies
 Flask depends on two external libraries, Werkzeug and Jinja2. Werkzeug is a toolkit for WSGI, the standard Python interface between web applications and a variety of servers for both development and deployment. Jinja2 renders templates. 
