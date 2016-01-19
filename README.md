@@ -1,5 +1,4 @@
 # Flask Tutorial
-----------------
 
 ### What is Flask, and why use it?
 
