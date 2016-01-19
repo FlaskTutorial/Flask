@@ -6,7 +6,7 @@
    
      A folder for your ```templates```
 
-    ![file structure](/img/file_structure.png)
+    ![file structure](file_structure.png)
 
 1. While in your ```/app``` folder, on your command line: 
 
