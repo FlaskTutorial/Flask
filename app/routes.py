@@ -1,9 +1,9 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
-@app.route('/')
-def hello_world():
-  return render_template('layout.html')
+@app.route('/<name>')
+def hello_world(name=None):
+  return render_template('layout.html', name=name)
 
 @app.route('/home')
 def home():
