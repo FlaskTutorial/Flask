@@ -6,6 +6,8 @@
    
      A folder for your ```templates```
 
+    ![file structure](app/static/img/file_structure.png)
+
 1. While in your ```/app``` folder, on your command line: 
 
     ```$ touch routes.py```
