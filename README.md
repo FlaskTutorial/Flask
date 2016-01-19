@@ -6,11 +6,11 @@
 
 Flask is a microframework for Python based on [Werkzeug](http://werkzeug.pocoo.org/) and [Jinja2](http://jinja.pocoo.org/docs/dev/). Its main use is to get your Python app started very quickly. 
 
-### Docs on docs on docs 
+### Docs on Docs on Docs 
 
 Check out the docs [here](http://flask.pocoo.org/docs/).
 
-### Before you begin...
+### Before you Begin
 
 Creating an app with Flask assumes that you have working knowledge of:
 * Python
